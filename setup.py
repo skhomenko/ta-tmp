@@ -7,7 +7,7 @@ with open(ROOT / 'requirements.txt', 'r') as req_file:
     req_data = req_file.readlines()
 
 setup(
-    name='retailta',
+    name='ta-tmp',
     version='0.0.1',
     description='The ta temp project',
     packages=find_packages(include=['retailta', 'retailta.*']),
